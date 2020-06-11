@@ -2,6 +2,7 @@ import re
 import os
 __name__ = '__main__'
 file = "mux.v"
+#Test comment
 def read_design(file):
     design = open(file,"r")
     if(os.path.exists(file)):
